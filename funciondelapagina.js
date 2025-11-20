@@ -23,3 +23,15 @@ imagenes.forEach(img => {
 self.addEventListener("install", () => {
   console.log("Service Worker instalado");
 });
+
+let eventoInstalacion;
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  eventoInstalacion = e;
+  document.getElementById("instalar").style.display = "block";
+});
+
+document.getElementById("instalar").addEventListener("click", () => {
+  eventoInstalacion.prompt();
+});
