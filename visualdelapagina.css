@@ -12,7 +12,8 @@ body {
 }
 
 #meza-del-streaming {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -31,15 +32,19 @@ h2{
 }
 
 .ordenimagenes{
-  position: relative;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 10px;
 }
 
 .logos{
-  width: 300px;
+  widh: 100%;
+  max-width: 300px;
   cursor: pointer;
 }
 .A{
-  width: 320px;
+  width: 100%;
+  max-width: 320px;
 }
+
