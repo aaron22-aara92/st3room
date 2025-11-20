@@ -32,7 +32,6 @@ h2{
 }
 
 .ordenimagenes{
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   display: inline-block;
@@ -48,5 +47,6 @@ h2{
   width: 100%;
   max-width: 320px;
 }
+
 
 
