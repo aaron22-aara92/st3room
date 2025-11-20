@@ -19,3 +19,7 @@ imagenes.forEach(img => {
     listaAbierta = lista.classList.contains("oculto") ? null : lista;
   });
 });
+
+self.addEventListener("install", () => {
+  console.log("Service Worker instalado");
+});
