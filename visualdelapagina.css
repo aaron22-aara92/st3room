@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(64, 5, 131);
+  font-family:'Times New Roman', arial;
+}
+
+.contenedor{
+  position:relative;
+  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#meza-del-streaming {
+  width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+h2{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+.ordenimagenes{
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.logos{
+  width: 300px;
+  cursor: pointer;
+}
+.A{
+  width: 320px;
+}
