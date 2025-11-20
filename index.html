@@ -29,13 +29,14 @@
     </div>
     <script src="funciondelapagina.js">
       if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("sw.js")
-      .then(() => console.log("SW registrado"))
-      .catch(err => console.log("Error:", err));
+  navigator.serviceWorker.register("sw.js")
+    .then(() => console.log("Service Worker registrado"))
+    .catch(err => console.log("Fallo el service worker:", err));
   }
     </script>
 </body>
 </html>
+
 
 
 
