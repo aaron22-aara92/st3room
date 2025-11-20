@@ -28,13 +28,15 @@
     <button id="instalar">Instalar app</button>
     </div>
     <script src="funciondelapagina.js">
-        if ("serviceWorker" in navigator) {
+      if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js")
-      .then(() => console.log("Service Worker registrado"))
-      .catch((error) => console.log("Error:", error));
+      .then(() => console.log("SW registrado"))
+      .catch(err => console.log("Error:", err));
+  }
     </script>
 </body>
 </html>
+
 
 
 
