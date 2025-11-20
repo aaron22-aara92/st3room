@@ -27,15 +27,16 @@
     <a href="http://" target="_blank" ><img src="imagenes y video/lo que no se habla .png" class="logos ordenimagenes"></a>
     <button id="instalar">Instalar app</button>
     </div>
-    <script src="funciondelapagina.js">
-      if ("serviceWorker" in navigator) {
+    <script>if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js")
-    .then(() => console.log("Service Worker registrado"))
-    .catch(err => console.log("Fallo el service worker:", err));
-  }
+    .then(() => console.log("SW registrado"))
+    .catch(err => console.log("Error SW:", err));
+    }
     </script>
+    <script src="funciondelapagina.js"></script>
 </body>
 </html>
+
 
 
 
