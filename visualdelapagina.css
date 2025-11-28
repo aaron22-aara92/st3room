@@ -59,7 +59,9 @@ h2{
 }
 .C{
   display: inline-block;
+  vertical-align: middle; 
 }
+
 
 
 
