@@ -62,8 +62,10 @@ h2{
   vertical-align: middle; 
 }
 p{
-  color: white;
+ 
+  width: rgba(255, 255, 255, 1);
 }
+
 
 
 
